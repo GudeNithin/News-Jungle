@@ -5,15 +5,31 @@
 }
 
 .nav-style {
-    color: white;
+    color: orangered;
     font-family: "Bree Serif";
     font-size: 15px;
     background-color: transparent;
     height: 10vh;
+    z-index: 1000;
+    position: relative;
 }
 
+.carousel {
+    z-index: 1; 
+}
+
+.carousel-inner img {
+    max-height: 70vh; 
+    object-fit: cover;
+}
+
+.navbar-toggler {
+    z-index: 1001; 
+}
+
+
 .main-image-style{
-    height:90vh;
+    height:60vh;
     width:100vw;
 }
 
@@ -21,10 +37,25 @@
     color:red;
     font-family:"Bree serif";
     font-size:20px;
-    font-weight:bold;
     padding:10px;
     text-align: center;
 }
+
+
+.nav-link {
+    color: #4682b4 !important; 
+    font-size: 16px; 
+}
+
+
+.nav-link:hover {
+    color: #ff6347 !important; 
+}
+
+.nav-item.active .nav-link {
+    color: #ffa500 !important; 
+}
+
 
 .sub-heading{
     color:orange;
@@ -36,6 +67,12 @@
     .main-image-style{
         height:40vh;
         width:100vw;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .main-image-style{
+        height:78vh;
     }
 }
 
@@ -57,7 +94,6 @@
     font-family: "Bree serif";
     background-color: grey;
     padding:20px;
-    margin:10px;
 }
 
 .news-card {
@@ -169,6 +205,7 @@ body.dark-mode .navbar .nav-item .nav-link {
     border-color: transparent;
     border-radius: 20px;
     margin:20px;
+    width:100px;
 }
 
 .entertainment-end-btn{
@@ -178,4 +215,5 @@ body.dark-mode .navbar .nav-item .nav-link {
     border-color: transparent;
     border-radius: 20px;
     margin: 20px;
+    width:100px;
 }

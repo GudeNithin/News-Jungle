@@ -1,105 +1,302 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+      integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+      crossorigin="anonymous"
+    ></script>
     <title>Entertainment - Page 1</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light nav-style">
+      <a class="navbar-brand" href="#" id="navbarBrand">News Jungle</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto active">
+          <li class="nav-item">
+            <a class="nav-link nav-links" href="#">Headlines</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-links" href="entertainment1.html"
+              >Entertainment</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-links" href="business1.html">Business</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-links" href="education1.html">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-links" href="sports1.html">Sports</a>
+          </li>
+        </ul>
+
+        <!-- Dark Mode Toggle -->
+        <button
+          id="darkModeToggle"
+          class="btn btn-outline-light ms-auto active ml-2 btn-style"
+        >
+          <img
+            width="20"
+            height="20"
+            src="https://img.icons8.com/ios-filled/50/do-not-disturb-2.png"
+            alt="do-not-disturb-2"
+          />
+        </button>
+      </div>
+    </nav>
 
     <!--Top Headlines-->
     <div class="container">
-        <h1 class="main-heading"><span style="color:black;">Entertainment </span>News</h1>
-        <div class="card-deck">
-            <div class="card shadow mt-2 news-card" style="width: 22rem;">
-                <img src="images/entertainment-1.webp" class="card-img-top" alt="entertainment-image">
-                <div class="card-body">
-                  <p class="card-text para-content">Jr NTR is gearing up for the release of his upcoming film Devara: Part 1. The Koratala Siva directorial will see him star alongside Janhvi Kapoor for the first time. Amidst all the buzz, the makers have dropped a new poster. The new poster from Devara unveils the dual avatars of Jr NTR’s character from the film.</p>
-                  <em style="color:red;font-weight: bold;font-family:Bree serif;"><small class="card-title">Posted on 1:20pm | 23-08-2024</small></em>
-                </div>
-              </div>
-
-            <div class="card shadow mt-2 news-card " style="width: 22rem;">
-                <img src="images/entertainment-2.jpg" class="card-img-top" alt="entertainment-image">
-                <div class="card-body">
-                  <p class="card-text para-content">Superstar Salman Khan was recently seen attending a kids’ event in Mumbai. Several videos from the function have been shared widely on social media. However, Salman’s fans were left concerned after watching him struggle with a rib injury at the event. Actor and activist Amruta Fadnvais thanked Salman for attending.</p>
-                  <em style="color:red;font-weight: bold;font-family:Bree serif;"><small class="card-title">Posted on 2:20pm | 25-08-2024</small></em>
-                </div>
-            </div>
-
-            <div class="card shadow mt-2 news-card" style="width: 22rem;">
-                <img src="images/entertainment-3.webp" class="card-img-top" alt="entertainment-image">
-                <div class="card-body">
-                  <p class="card-text para-content">Filmmaker Amar Kaushik’s blockbuster horror comedy sequel is steadily setting new benchmarks almost every day, and Wednesday was no different. Completing two weeks in theatres, Stree 2 also broke its biggest record overtaking the lifetime Hindi language collections of the Yash KGF Chapter 2.</p>
-                  <em style="color:red;font-weight: bold;font-family:Bree serif;"><small class="card-title">Posted on 11:20pm | 24-08-2024</small></em>
-                </div>
-              </div>
-
+      <h1 class="main-heading">
+        Entertainment News
+      </h1>
+      <div class="card-deck">
+        <div class="card shadow mt-2 news-card" style="width: 22rem">
+          <img
+            src="images/entertainment-1.webp"
+            class="card-img-top"
+            alt="entertainment-image"
+          />
+          <div class="card-body">
+            <p class="card-text para-content">
+              Jr NTR is gearing up for the release of his upcoming film Devara:
+              Part 1. The Koratala Siva directorial will see him star alongside
+              Janhvi Kapoor for the first time. Amidst all the buzz, the makers
+              have dropped a new poster. The new poster from Devara unveils the
+              dual avatars of Jr NTR’s character from the film.
+            </p>
+            <em style="color: red; font-weight: bold; font-family: Bree serif"
+              ><small class="card-title"
+                >Posted on 1:20pm | 23-08-2024</small
+              ></em
+            >
+          </div>
         </div>
 
-        <div class="card-deck">
-            <div class="card shadow mt-2 news-card" style="width: 22rem;">
-                <img src="images/entertainment-4.avif" class="card-img-top" alt="entertainment-image">
-                <div class="card-body">
-                  <p class="card-text para-content">It’s going to be an unmissable event as the Akhtars come together live on stage for the first time. Multiple National Award-winning screenwriter Javed Akhtar and his filmmaker daughter Zoya Akhtar will be the guests at the third session of Expresso, to be held in Mumbai on Thursday.</p>
-                  <em style="color:red;font-weight: bold;font-family:Bree serif;"><small class="card-title">Posted on 9:20pm | 27-08-2024</small></em>
-                </div>
-              </div>
-
-            <div class="card shadow mt-2 news-card" style="width: 22rem;">
-                <img src="images/entertainment-5.avif" class="card-img-top" alt="entertainment-image">
-                <div class="card-body">
-                  <p class="card-text para-content">Singer-turned-actor Sudhanshu Pandey became a household name through the hit television show Anupamaa. Playing a negative character on screen did get Sudhanshu some brickbats, but also immense love from the audience. In an Instagram Live interaction with his fans, Sudhanshu confirmed that.</p>
-                  <em style="color:red;font-weight: bold;font-family:Bree serif;"><small class="card-title">Posted on 6:20pm | 25-08-2024</small></em>
-                </div>
-            </div>
-
-            <div class="card shadow mt-2 news-card" style="width: 22rem;">
-                <img src="images/entertainment-6.jpg" class="card-img-top" alt="entertainment-image">
-                <div class="card-body">
-                  <p class="card-text para-content">Actor Vijay Varma has carved a niche for himself in the movies but the actor saw a long struggle before he made a name for himself in Hindi films. During a recent interview, Vijay recalled a time when he had just Rs 18 left in his bank account and shared that this was probably the lowest time of his life.</p>
-                  <em style="color:red;font-weight: bold;font-family:Bree serif;"><small class="card-title">Posted on 1:20pm | 24-08-2024</small></em>
-                </div>
-              </div>
-
+        <div class="card shadow mt-2 news-card" style="width: 22rem">
+          <img
+            src="images/entertainment-2.jpg"
+            class="card-img-top"
+            alt="entertainment-image"
+          />
+          <div class="card-body">
+            <p class="card-text para-content">
+              Superstar Salman Khan was recently seen attending a kids’ event in
+              Mumbai. Several videos from the function have been shared widely
+              on social media. However, Salman’s fans were left concerned after
+              watching him struggle with a rib injury at the event. Actor and
+              activist Amruta Fadnvais thanked Salman for attending.
+            </p>
+            <em style="color: red; font-weight: bold; font-family: Bree serif"
+              ><small class="card-title"
+                >Posted on 2:20pm | 25-08-2024</small
+              ></em
+            >
+          </div>
         </div>
 
-        <div class="card-deck">
-            <div class="card shadow mt-2 news-card" style="width: 22rem;">
-                <img src="images/entertainment-7.avif" class="card-img-top" alt="entertainment-image">
-                <div class="card-body">
-                  <p class="card-text para-content">The downfall of the Association of Malayalam Movie Artists (AMMA) has proven one thing: the Women in Cinema Collective (WCC) was on to something from the beginning. Formed by a group of women in the Malayalam film industry in the aftermath of the 2017 abduction and sexual assault of a leading female actor in Kochi.</p>
-                  <em style="color:red;font-weight: bold;font-family:Bree serif;"><small class="card-title">Posted on 2:10pm | 21-08-2024</small></em>
-                </div>
-              </div>
+        <div class="card shadow mt-2 news-card" style="width: 22rem">
+          <img
+            src="images/entertainment-3.webp"
+            class="card-img-top"
+            alt="entertainment-image"
+          />
+          <div class="card-body">
+            <p class="card-text para-content">
+              Filmmaker Amar Kaushik’s blockbuster horror comedy sequel is
+              steadily setting new benchmarks almost every day, and Wednesday
+              was no different. Completing two weeks in theatres, Stree 2 also
+              broke its biggest record overtaking the lifetime Hindi language
+              collections of the Yash KGF Chapter 2.
+            </p>
+            <em style="color: red; font-weight: bold; font-family: Bree serif"
+              ><small class="card-title"
+                >Posted on 11:20pm | 24-08-2024</small
+              ></em
+            >
+          </div>
+        </div>
+      </div>
 
-            <div class="card shadow mt-2 news-card" style="width: 22rem;">
-                <img src="images/entertainment-8.jpg" class="card-img-top" alt="entertainment-image">
-                <div class="card-body">
-                  <p class="card-text para-content">Shah Rukh Khan‘s Baadshah celebrated its 25th anniversary recently and on this special occasion, the film’s producer, Ratan Jain, shared some fond memories and revealed some intriguing details about the casting decisions for the film. Jain revealed that Karisma Kapoor was initially considered for the female lead role.</p>
-                  <em style="color:red;font-weight: bold;font-family:Bree serif;"><small class="card-title">Posted on 11:10pm | 24-08-2024</small></em>
-                </div>
-            </div>
-
-            <div class="card shadow mt-2 news-card" style="width: 22rem;">
-                <img src="images/entertainment-9.webp" class="card-img-top" alt="entertainment-image">
-                <div class="card-body">
-                  <p class="card-text para-content">One of the most prominent figures in the Indian ad film industry, Prahlad Kakkar has served as the mastermind behind numerous memorable commercials. Recently, Kakkar took a trip down memory lane and recalled creating the famous Pepsi commercial featuring Aamir Khan and Aishwarya Rai.</p>
-                  <em style="color:red;font-weight: bold;font-family:Bree serif;"><small class="card-title">Posted on 10:20am | 24-08-2024</small></em>
-                </div>
-              </div>
+      <div class="card-deck">
+        <div class="card shadow mt-2 news-card" style="width: 22rem">
+          <img
+            src="images/entertainment-4.avif"
+            class="card-img-top"
+            alt="entertainment-image"
+          />
+          <div class="card-body">
+            <p class="card-text para-content">
+              It’s going to be an unmissable event as the Akhtars come together
+              live on stage for the first time. Multiple National Award-winning
+              screenwriter Javed Akhtar and his filmmaker daughter Zoya Akhtar
+              will be the guests at the third session of Expresso, to be held in
+              Mumbai on Thursday.
+            </p>
+            <em style="color: red; font-weight: bold; font-family: Bree serif"
+              ><small class="card-title"
+                >Posted on 9:20pm | 27-08-2024</small
+              ></em
+            >
+          </div>
         </div>
 
-        <div class="d-flex justify-content-between">
-          <a class="btn btn-success entertainment-start-btn" href="#">Prev</a>
-          <a class="btn btn-success entertainment-end-btn" href="entertainment2.html">Next</a>
-      </div>      
+        <div class="card shadow mt-2 news-card" style="width: 22rem">
+          <img
+            src="images/entertainment-5.avif"
+            class="card-img-top"
+            alt="entertainment-image"
+          />
+          <div class="card-body">
+            <p class="card-text para-content">
+              Singer-turned-actor Sudhanshu Pandey became a household name
+              through the hit television show Anupamaa. Playing a negative
+              character on screen did get Sudhanshu some brickbats, but also
+              immense love from the audience. In an Instagram Live interaction
+              with his fans, Sudhanshu confirmed that.
+            </p>
+            <em style="color: red; font-weight: bold; font-family: Bree serif"
+              ><small class="card-title"
+                >Posted on 6:20pm | 25-08-2024</small
+              ></em
+            >
+          </div>
+        </div>
+
+        <div class="card shadow mt-2 news-card" style="width: 22rem">
+          <img
+            src="images/entertainment-6.jpg"
+            class="card-img-top"
+            alt="entertainment-image"
+          />
+          <div class="card-body">
+            <p class="card-text para-content">
+              Actor Vijay Varma has carved a niche for himself in the movies but
+              the actor saw a long struggle before he made a name for himself in
+              Hindi films. During a recent interview, Vijay recalled a time when
+              he had just Rs 18 left in his bank account and shared that this
+              was probably the lowest time of his life.
+            </p>
+            <em style="color: red; font-weight: bold; font-family: Bree serif"
+              ><small class="card-title"
+                >Posted on 1:20pm | 24-08-2024</small
+              ></em
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="card-deck">
+        <div class="card shadow mt-2 news-card" style="width: 22rem">
+          <img
+            src="images/entertainment-7.avif"
+            class="card-img-top"
+            alt="entertainment-image"
+          />
+          <div class="card-body">
+            <p class="card-text para-content">
+              The downfall of the Association of Malayalam Movie Artists (AMMA)
+              has proven one thing: the Women in Cinema Collective (WCC) was on
+              to something from the beginning. Formed by a group of women in the
+              Malayalam film industry in the aftermath of the 2017 abduction and
+              sexual assault of a leading female actor in Kochi.
+            </p>
+            <em style="color: red; font-weight: bold; font-family: Bree serif"
+              ><small class="card-title"
+                >Posted on 2:10pm | 21-08-2024</small
+              ></em
+            >
+          </div>
+        </div>
+
+        <div class="card shadow mt-2 news-card" style="width: 22rem">
+          <img
+            src="images/entertainment-8.jpg"
+            class="card-img-top"
+            alt="entertainment-image"
+          />
+          <div class="card-body">
+            <p class="card-text para-content">
+              Shah Rukh Khan‘s Baadshah celebrated its 25th anniversary recently
+              and on this special occasion, the film’s producer, Ratan Jain,
+              shared some fond memories and revealed some intriguing details
+              about the casting decisions for the film. Jain revealed that
+              Karisma Kapoor was initially considered for the female lead role.
+            </p>
+            <em style="color: red; font-weight: bold; font-family: Bree serif"
+              ><small class="card-title"
+                >Posted on 11:10pm | 24-08-2024</small
+              ></em
+            >
+          </div>
+        </div>
+
+        <div class="card shadow mt-2 news-card" style="width: 22rem">
+          <img
+            src="images/entertainment-9.webp"
+            class="card-img-top"
+            alt="entertainment-image"
+          />
+          <div class="card-body">
+            <p class="card-text para-content">
+              One of the most prominent figures in the Indian ad film industry,
+              Prahlad Kakkar has served as the mastermind behind numerous
+              memorable commercials. Recently, Kakkar took a trip down memory
+              lane and recalled creating the famous Pepsi commercial featuring
+              Aamir Khan and Aishwarya Rai.
+            </p>
+            <em style="color: red; font-weight: bold; font-family: Bree serif"
+              ><small class="card-title"
+                >Posted on 10:20am | 24-08-2024</small
+              ></em
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-between">
+        <a class="btn btn-success entertainment-start-btn" href="index.html"
+          >Prev</a
+        >
+        <a
+          class="btn btn-success entertainment-end-btn"
+          href="entertainment2.html"
+          >Next</a
+        >
+      </div>
     </div>
-    
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
